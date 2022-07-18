@@ -17,7 +17,7 @@ namespace FrancesAmortizacion
                         tasa = 0, porcTasa = 0,
                         aval = 0, porcAval =0 ;
 
-                Console.WriteLine("Ingrese el calor del monto prestado: ");
+                Console.WriteLine("Ingrese el valor del monto prestado: ");
                 saldoPrestado = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Ingrese el interes del prestamo: ");
@@ -27,7 +27,7 @@ namespace FrancesAmortizacion
                 Console.WriteLine("Ingrese el numero de cotas para pagar: ");
                 periodo = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Ingrese el numero de cotas para pagar: ");
+                Console.WriteLine("Ingrese el aval: ");
                 aval = (float)Convert.ToDouble(Console.ReadLine());
                 porcAval = (saldoPrestado * (aval / 100))/periodo;
 
